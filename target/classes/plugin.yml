@@ -1,0 +1,67 @@
+name: Lobby
+version: 1.0-SNAPSHOT
+main: me.teakivy.lobby.Lobby
+authors: [ TeakIvy ]
+description: Lobby!
+depend: [WorldEdit]
+commands:
+  heal:
+    description: Heal yourself
+  gmc:
+    description: Gamemode Creative
+  gms:
+    description: Gamemode Survival
+  gma:
+    description: Gamemode Adventure
+  hideplayers:
+    description: Hide Other Players
+  showplayers:
+    description: Show Other Players
+#  vanish:
+#    description: Vanish to other Players
+#  unvanish:
+#    description: Become visible to other Players
+  l:
+    description: Lobby
+  lobby:
+    description: Lobby
+  hub:
+    description: Lobby
+#  opme:
+#    description: Op Sender
+#  deopme:
+#    description: De-Op Sender
+  twitch:
+    description: Twitch Streamer
+  role:
+    description: Give yourself a rank!
+  sumo:
+    description: Play Sumo!
+  test:
+    description: Testing!
+  playsumo:
+    description: Accept a sumo duel!
+  classic:
+    description: Play Classic Duels!
+  playclassic:
+    description: Accept a classic duel!
+#  cage:
+#    description: Cage!
+  bridge:
+    description: Play Bridge Duels!
+  playbridge:
+    description: Accept a bridge duel!
+  sb:
+    description: Show Scoreboard!
+  play:
+    description: Play a game!
+#  wetest:
+#    description: World Edit Test!
+#  worldtp:
+#    description: Teleport to world!
+#  createvoid:
+#    description: Create a void world!
+#  create:
+#    description: Create a world by type!
+  leavequeue:
+    description: Leave a game Queue!
