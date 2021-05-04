@@ -1,6 +1,6 @@
 name: Lobby
 version: ${project.version}
-main: me.teakivy.lobby.Lobby
+main: me.teakivy.lobby.Main
 authors: [ TeakIvy ]
 description: Lobby!
 depend: [WorldEdit]
@@ -13,6 +13,8 @@ commands:
     description: Gamemode Survival
   gma:
     description: Gamemode Adventure
+  gmsp:
+    description: Gamemode Spectator
   hideplayers:
     description: Hide Other Players
   showplayers:
@@ -27,18 +29,30 @@ commands:
     description: Lobby
   hub:
     description: Lobby
-#  opme:
-#    description: Op Sender
+  grapplehook:
+    description: HOOK!
+  grapplegun:
+    description: GUN!
+  toystick:
+    description: TOYSTICK!
+  kittycannon:
+    description: KITTY!
+  rainbow:
+    description: RAINBOW WOOL!
+  wool:
+    description: WOOL!
+#  createnpc:
+#    description: Create an NPC Test
 #  deopme:
 #    description: De-Op Sender
-  twitch:
-    description: Twitch Streamer
-  role:
-    description: Give yourself a rank!
+#  twitch:
+#    description: Twitch Streamer
+#  role:
+#    description: Give yourself a rank!
   sumo:
     description: Play Sumo!
-  test:
-    description: Testing!
+  nick:
+    description: Nick Yourself!
   playsumo:
     description: Accept a sumo duel!
   classic:
@@ -51,12 +65,14 @@ commands:
     description: Play Bridge Duels!
   playbridge:
     description: Accept a bridge duel!
-  sb:
-    description: Show Scoreboard!
+#  sb:
+#    description: Show Scoreboard!
   play:
     description: Play a game!
-#  wetest:
-#    description: World Edit Test!
+#  bed:
+#    description: Bed!
+  test:
+    description: World Edit Test!
 #  worldtp:
 #    description: Teleport to world!
 #  createvoid:
@@ -65,3 +81,13 @@ commands:
 #    description: Create a world by type!
   leavequeue:
     description: Leave a game Queue!
+  disguise:
+    description: Disguise Yourself!
+  d:
+    description: Disguise Yourself!
+  bedwars:
+    description: Bedwars Duel!
+  playbedwars:
+    description: Start a bedwars game!
+  duel:
+    description: Duel Someone!
